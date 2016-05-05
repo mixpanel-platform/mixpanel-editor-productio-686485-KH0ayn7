@@ -10,6 +10,14 @@
     <h1>Hello, World!</h1>
     <script>
       // Run queries and display results here
+      MP.api.funnel('initiated download', 'initiated download', 'initiated download', 'initiated download', 'initiated download').done(function(results){
+        
+        console.log(results);
+        // turn the results into the sum of conversions for that 30-day period
+        // {date: value, date2: value}
+        // MP.api.chart(type: line, data=ourdataobject) --> step 5 conversions over time for any date range we desire
+        
+      })
     </script>
   </body>
 </html>
